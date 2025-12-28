@@ -64,12 +64,13 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    --background: 0, 0%, 94%;
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
 
-    --primary: 250 47% 60%;
+    /* Dorado para modo claro (un poco más oscuro para que se lea bien) */
+    --primary: 43 70% 45%; 
     --primary-foreground: 210 40% 98%;
 
     --border: 214 32% 91%;
@@ -81,8 +82,9 @@
 
     --card: 222 47% 8%;
 
-    --primary: 250 65% 65%;
-    --primary-foreground: 213 31% 91%;
+    /* Dorado para modo oscuro (más brillante para que resalte) */
+    --primary: 45 85% 60%;
+    --primary-foreground: 222 47% 4%; /* Texto oscuro sobre fondo dorado */
 
     --border: 217 33% 20%;
   }
